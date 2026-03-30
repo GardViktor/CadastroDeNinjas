@@ -6,10 +6,6 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping
 public class NinjaController {
 
-    @GetMapping("/welcome")
-    public String boasVindas() {
-        return "Essa é a minha primeira MENSAGEM nessa ROTA";}
-
     // Adicionar Ninja (CREATE)
     @PostMapping("/criar")
         public String criarNinjas() {
